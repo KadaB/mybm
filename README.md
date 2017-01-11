@@ -4,18 +4,23 @@ A stereo blockmatching algorithm I programmed for my thesis.
 
 It uses dynamic programming cost minimization and has the ability to aggregate cost functions.
 
-Input:
+* Input:
+
   rectified stereo image (for example left.png right.png)
-Output:
+* Output:
+
   Disparity image/ inverse depth map.
 
-There is minimal or maximal disparity so calculating the image might take a while.
+There is no minimal or maximal disparity so calculating the image might take a while.
 
-Usage:
+**Usage:**
+
 `mybm -s left.png right.png`
+
 will calculate a disparity map for the stereoset left.png right.png.
 
 `mybm -s left.png right.png -c -o disparity.png`
+
 will save the disparity map in an image file. "-c" will make sure that the disparity map is colored in the opencv "jet" colormap for better reckognition of height.
 disparity.png will be the output image
 
