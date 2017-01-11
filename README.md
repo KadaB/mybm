@@ -2,6 +2,8 @@
 
 A stereo blockmatching algorithm I programmed for my thesis.
 
+<img src="https://cloud.githubusercontent.com/assets/22398803/21848895/52d191fe-d803-11e6-86bf-82419f65b896.png">
+
 It uses dynamic programming cost minimization and has the ability to aggregate cost functions.
 
 * Input:
