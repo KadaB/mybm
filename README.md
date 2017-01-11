@@ -7,10 +7,10 @@ A stereo blockmatching algorithm I programmed for my thesis.
 It uses dynamic programming cost minimization and has the ability to aggregate cost functions.
 
 * Input:
-
+  <img src ="https://cloud.githubusercontent.com/assets/22398803/21849302/4c8eef10-d805-11e6-9cbe-fa5754f52d2e.png">
   rectified stereo image (for example left.png right.png)
 * Output:
-
+  <img src = "https://cloud.githubusercontent.com/assets/22398803/21849304/5291b44c-d805-11e6-88ea-627cd9b625c6.png">
   Disparity image/ inverse depth map.
 
 There is no minimal or maximal disparity so calculating the image might take a while.
