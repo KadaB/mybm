@@ -30,10 +30,10 @@ will calculate a disparity map for the stereoset left.png right.png.
 will save the disparity map in an image file. "-c" will make sure that the disparity map is colored in the opencv "jet" colormap for better reckognition of height.
 disparity.png will be the output image
 
+### Building and execution on a linux based system
+
 Based on the following libraries:
 * OpenCV
-
-### Building and execution on a linux based system
 
 **Install dependencies on Ubuntu (or Debian based distributions):**
 
